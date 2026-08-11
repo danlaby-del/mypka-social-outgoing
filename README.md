@@ -85,3 +85,4 @@ see SOP-020 for the full flag.
 - [[SOP-020-daily-social-review-and-posting]] — reads/updates these files:
   morning review email, afternoon approve-and-post.
 - `Team Inbox/slack-outgoing/` — the sibling convention this folder mirrors.
+cloud-side content
