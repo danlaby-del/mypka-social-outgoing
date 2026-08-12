@@ -51,10 +51,10 @@ instagram_caption: |
   
   #SportsVision #ReactionTime #AthleticVisionPyramid #PerceptualTraining #VisionScience
 review_email:
-  sent_at: null
-  message_id: null
-  thread_id: null
-  subject: null
+  sent_at: "2026-08-12T11:43:29Z"
+  message_id: "19ff5c8cc27056dc"
+  thread_id: "19ff5c8cc27056dc"
+  subject: "Social Post Review: 2026-08-12 (Wednesday)"
 edits:
   facebook_text: null
   linkedin_text: null
