@@ -1,7 +1,7 @@
 ---
 date: 2026-08-12
 weekday: wednesday
-status: skipped-no-reply
+status: posted
 source_sop: SOP-019
 episode_slug: coaches-vision-weekly
 facebook_text: |
@@ -59,9 +59,9 @@ edits:
   facebook_text: null
   linkedin_text: null
   instagram_caption: null
-posted_at: null
+posted_at: "2026-08-14T21:31:44Z"
 posted_results:
-  facebook_post_id: null
-  linkedin_share_id: null
+  facebook_post_id: "431721883365241_122199235088595421"
+  linkedin_share_id: "urn:li:share:7494143876744536064"
 ---
 Backfilled 2026-08-12 (Larry) — content pulled from the already-built Coaches Vision Weekly package (2026-08-08); SOP-019's queue-writing step postdates that build, so this and the following two days' files never got auto-generated. Created directly so the automated review-email/posting pipeline can pick it up on schedule.
