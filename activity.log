@@ -8,3 +8,4 @@
 2026-08-14T21:40:00Z | larry-manual | manually posted 2026-08-12, 2026-08-13, 2026-08-14 to Facebook + LinkedIn after discovering 3-day parsing bug (Daniel's "Approve" replies included email signature/"Sent from my iPhone" text before the quote boundary, breaking the exact-match check) — all 6 posts verified live via read-back, not just create-call success. See SOP-020 fix for the root-cause parsing update.
 2026-08-15T09:07:20Z | morning | no-op: no queue file found for 2026-08-15-saturday.md
 2026-08-15T14:14:21Z UTC | afternoon | no-op: no queue file found for 2026-08-15-saturday.md (consistent with morning step's no-op — nothing to review or post today)
+2026-08-16T09:08:33Z | morning | no-op: no queue file found for 2026-08-16-sunday.md
