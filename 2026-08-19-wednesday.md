@@ -51,10 +51,10 @@ instagram_caption: |
 
   #SportsVision #VisionScience #Saccades #PerceptualMotor #AthleticVisionPyramid
 review_email:
-  sent_at: null
-  message_id: null
-  thread_id: null
-  subject: null
+  sent_at: 2026-08-19T09:08:39Z
+  message_id: "1a0194782b3a8821"
+  thread_id: "1a0194782b3a8821"
+  subject: "Social Post Review: 2026-08-19 (Wednesday)"
 edits:
   facebook_text: null
   linkedin_text: null
