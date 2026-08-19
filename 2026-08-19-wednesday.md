@@ -1,7 +1,7 @@
 ---
 date: 2026-08-19
 weekday: wednesday
-status: pending-review
+status: approved
 source_sop: SOP-019
 episode_slug: batters-eyes-weekly
 facebook_text: |
