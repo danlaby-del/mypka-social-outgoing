@@ -18,3 +18,4 @@
 2026-08-20T09:08:07Z | morning | sent review email for 2026-08-20, thread_id=1a01e6d6aec8ec45
 2026-08-20T14:24:00Z UTC | afternoon | WARNING: Facebook create-post call returned "An unknown error occurred" but the post HAD actually been created — read-back found post 431721883365241_122199759770595421 (created 14:17:52Z, message + image match). Treated as success, did NOT retry (a retry would have duplicated the public post). LinkedIn was posted after this as a first attempt, no duplicate risk.
 2026-08-20T14:24:00Z UTC | afternoon | posted 2026-08-20's social package to Facebook + LinkedIn (Instagram remains manual, caption already delivered in the morning review email); verified via read-back: found
+2026-08-21T09:09:19Z | morning | sent review email for 2026-08-21, thread_id=1a02394df0b51889
