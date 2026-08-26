@@ -45,10 +45,10 @@ instagram_caption: |
 
   #SportsVision #Antisaccade #InhibitoryControl #VisionScience #EyeTracking
 review_email:
-  sent_at: null
-  message_id: null
-  thread_id: null
-  subject: null
+  sent_at: 2026-08-26T09:10:19Z
+  message_id: 1a03d5592f291511
+  thread_id: 1a03d5592f291511
+  subject: "Social Post Review: 2026-08-26 (Wednesday)"
 edits:
   facebook_text: null
   linkedin_text: null
