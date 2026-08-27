@@ -14,6 +14,35 @@ push (local -> GitHub, via SOP-019 §5 step 7) plus one-way-per-field pull
 `Team Knowledge/SOPs/scripts/social_outgoing_sync.py`. See SOP-020 §0 for
 the full contract.
 
+**Known upstream fragility (as of 2026-08-26, diagnosis corrected same
+day):** the real root cause is the two CronCreate cloud routines behind
+SOP-020 (`trig_01JjLgsExJQrmP91vkUxW6kB` morning,
+`trig_01MHVojPidA74UX8MuNqPvDc` afternoon, see SOP-020 §0). They run
+inline, self-contained natural-language instructions that compose the YAML
+frontmatter text themselves before writing it to the GitHub mirror, and
+have been observed writing an unquoted colon inside a scalar value
+(`review_email.subject`), which is invalid YAML and used to crash the local
+`--pull` job. This is NOT a bug in the Zapier code action
+`code_action_githubcliapi__create_or_update_file_reliable` (see SOP-020
+§0/§3 step 4). That action is a generic plain-text GitHub file writer
+(`repo`, `path`, `content`, `message`, `branch`, `sha`) that never builds
+YAML itself; an earlier same-day diagnosis blaming that action was wrong
+and has been corrected. `social_outgoing_sync.py` v1.2.0 fixed the
+local-side symptom: a single malformed mirror file no longer aborts the
+whole pull run (every other in-scope file still gets processed), and the
+pull now attempts a best-effort repair of that specific malformed-value
+pattern before giving up on a file. The real fix, an explicit mandatory
+quoting rule for the cloud routines' YAML composition step, is now
+documented in SOP-020 §3 and §4 (added 2026-08-26); pushing that rule into
+the routines' actual stored instructions via `RemoteTrigger update` is
+still an outstanding action item flagged in SOP-020 §0 (Larry has the
+live-routine-editing permission needed). See `Team Knowledge/log.md`
+2026-08-26 entries for the full incident, the wrong diagnosis, and the
+correction. The now-superseded apply guide at
+`Team Knowledge/SOPs/scripts/2026-08-26-zapier-yaml-fix-apply-guide.md`
+carries a correction notice at the top; do not apply it, no Zapier code
+action needs editing.
+
 ## Filename convention
 
 `YYYY-MM-DD-<weekday>.md` — e.g. `2026-08-18-tuesday.md`. One file per
