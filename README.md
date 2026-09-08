@@ -43,6 +43,19 @@ correction. The now-superseded apply guide at
 carries a correction notice at the top; do not apply it, no Zapier code
 action needs editing.
 
+**Sync-script maintenance lesson (2026-08-27):** the local `--pull` side of
+`social_outgoing_sync.py` only compares and copies the top-level frontmatter
+fields listed in its `CLOUD_AUTHORITATIVE_KEYS` constant. That list must
+stay in exact sync with every field this frontmatter contract says the
+cloud side (SOP-020) is allowed to write, `status`, `review_email`,
+`posted_results`, `edits`, `posted_at`, whenever this contract is edited to
+add a new cloud-writable field, `CLOUD_AUTHORITATIVE_KEYS` must be updated
+in the same change, or `--pull` will silently never bring that field down,
+even while logging a clean "no-op" run. See
+[[2026-08-27-social-sync-pull-field-diffing-bug-fix]] for the incident this
+lesson comes from (`posted_at` was missing from the tuple and stayed stuck
+`null` locally on 8 already-posted files).
+
 ## Filename convention
 
 `YYYY-MM-DD-<weekday>.md` — e.g. `2026-08-18-tuesday.md`. One file per
