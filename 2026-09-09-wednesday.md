@@ -1,7 +1,7 @@
 ---
 date: 2026-09-09
 weekday: wednesday
-status: pending-review
+status: 'approved'
 source_sop: SOP-019
 episode_slug: vision-and-acl-injury
 facebook_text: |
