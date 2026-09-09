@@ -45,10 +45,10 @@ instagram_caption: |
 
   #SportsVision #ACLPrevention #PeripheralVision #SportsScience #AthleteHealth
 review_email:
-  sent_at: null
-  message_id: null
-  thread_id: null
-  subject: null
+  sent_at: '2026-09-09T09:08:22Z'
+  message_id: '1a0856cd8358183f'
+  thread_id: '1a0856cd8358183f'
+  subject: 'Social Post Review: 2026-09-09 (Wednesday)'
 edits:
   facebook_text: null
   linkedin_text: null
