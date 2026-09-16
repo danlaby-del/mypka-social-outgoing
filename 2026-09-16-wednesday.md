@@ -1,9 +1,9 @@
 ---
-date: 2026-09-16
-weekday: wednesday
-status: pending-review
-source_sop: SOP-019
-episode_slug: the-right-amount-of-noise
+date: '2026-09-16'
+weekday: 'wednesday'
+status: 'pending-review'
+source_sop: 'SOP-019'
+episode_slug: 'the-right-amount-of-noise'
 facebook_text: |
   Why would a nervous system work this way? It seems like interference should always cost you.
 
@@ -20,8 +20,8 @@ facebook_text: |
   → sportsvision.nyc
 
   #SportsVision #Neuroscience #PerformanceVision #VisualPerception #SportsScience
-facebook_image_path: /Users/daniellaby/Library/CloudStorage/Dropbox/For Chloe/YOUTUBE:POD/SEP 17 - THE RIGHT AMOUNT OF NOISE/wednesday.png
-facebook_image_url: https://raw.githubusercontent.com/danlaby-del/mypka-social-outgoing/main/images/2026-09-16-wednesday.png
+facebook_image_path: '/Users/daniellaby/Library/CloudStorage/Dropbox/For Chloe/YOUTUBE:POD/SEP 17 - THE RIGHT AMOUNT OF NOISE/wednesday.png'
+facebook_image_url: 'https://raw.githubusercontent.com/danlaby-del/mypka-social-outgoing/main/images/2026-09-16-wednesday.png'
 linkedin_text: |
   Why would a nervous system work this way? It seems like interference should always cost you.
 
@@ -38,8 +38,8 @@ linkedin_text: |
   → sportsvision.nyc
 
   #SportsVision #Neuroscience #PerformanceVision #VisualPerception #SportsScience
-linkedin_image_path: /Users/daniellaby/Library/CloudStorage/Dropbox/For Chloe/YOUTUBE:POD/SEP 17 - THE RIGHT AMOUNT OF NOISE/wednesday.png
-linkedin_image_url: https://raw.githubusercontent.com/danlaby-del/mypka-social-outgoing/main/images/2026-09-16-wednesday.png
+linkedin_image_path: '/Users/daniellaby/Library/CloudStorage/Dropbox/For Chloe/YOUTUBE:POD/SEP 17 - THE RIGHT AMOUNT OF NOISE/wednesday.png'
+linkedin_image_url: 'https://raw.githubusercontent.com/danlaby-del/mypka-social-outgoing/main/images/2026-09-16-wednesday.png'
 instagram_caption: |
   Why would a nervous system work this way? It seems like interference should always cost you.
 
@@ -57,10 +57,10 @@ instagram_caption: |
 
   #SportsVision #Neuroscience #PerformanceVision #VisualPerception #SportsScience
 review_email:
-  sent_at: null
-  message_id: null
-  thread_id: null
-  subject: null
+  sent_at: '2026-09-16T09:07:33Z'
+  message_id: '1a0a9789631c2a03'
+  thread_id: '1a0a9789631c2a03'
+  subject: 'Social Post Review: 2026-09-16 (Wednesday)'
 edits:
   facebook_text: null
   linkedin_text: null
