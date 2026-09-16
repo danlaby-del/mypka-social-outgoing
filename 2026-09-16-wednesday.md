@@ -1,7 +1,7 @@
 ---
 date: '2026-09-16'
 weekday: 'wednesday'
-status: 'approved'
+status: 'posted'
 source_sop: 'SOP-019'
 episode_slug: 'the-right-amount-of-noise'
 facebook_text: |
@@ -65,10 +65,10 @@ edits:
   facebook_text: null
   linkedin_text: null
   instagram_caption: null
-posted_at: null
+posted_at: '2026-09-16T14:10:46Z'
 posted_results:
-  facebook_post_id: null
-  linkedin_share_id: null
+  facebook_post_id: '431721883365241_122202082148595421'
+  linkedin_share_id: 'urn:li:share:7505991556470964224'
 ---
 
 Episode: "The Right Amount of Noise", stochastic resonance and athletic
