@@ -1,7 +1,7 @@
 ---
 date: '2026-09-16'
 weekday: 'wednesday'
-status: 'pending-review'
+status: 'approved'
 source_sop: 'SOP-019'
 episode_slug: 'the-right-amount-of-noise'
 facebook_text: |
