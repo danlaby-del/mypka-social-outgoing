@@ -73,3 +73,4 @@
 2026-09-18T09:07:51Z | morning | sent review email for 2026-09-18, thread_id=1a0b3c59d18278b7
 2026-09-18T14:14:07Z UTC | afternoon | posted 2026-09-18's social package to Facebook + LinkedIn (Instagram remains manual, caption already delivered in the morning review email); verified via read-back: found
 2026-09-19T09:06:51Z | morning | no-op: no queue file found for 2026-09-19-saturday.md
+2026-09-19T14:07:03Z UTC | afternoon | no-op: no queue file found for 2026-09-19-saturday.md (consistent with morning step's no-op — nothing to review or post today)
