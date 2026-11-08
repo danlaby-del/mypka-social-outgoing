@@ -174,3 +174,5 @@
 2026-11-07T14:06:35Z UTC | afternoon | no queue file found for 2026-11-07 (2026-11-07-saturday.md does not exist in repo; newest file present is 2026-09-18-friday.md) — skipped, nothing to review
 2026-11-08T00:50:49Z | morning | no-op: no queue file found for 2026-11-08-sunday.md (newest file present is 2026-09-18-friday.md)
 2026-11-08T00:50:50Z UTC | afternoon | no queue file found for 2026-11-08 (2026-11-08-sunday.md does not exist in repo; newest file present is 2026-09-18-friday.md) — skipped, nothing to review
+
+2026-11-08T09:03:27Z | morning | no-op: no queue file found for 2026-11-08-sunday.md (not pending-review; newest file present is 2026-09-18-friday.md)
